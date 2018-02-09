@@ -62,7 +62,7 @@ UIPlugin 4 Android
     
     ##java：
     
-      SwitchButton switchButton = (SwitchButton) findViewById(R.id.switch_button);
+    SwitchButton switchButton = (SwitchButton) findViewById(R.id.switch_button);
 //        switchButton.setChecked(true);
 //        switchButton.isChecked();
 //        switchButton.toggle();     //switch state
@@ -70,7 +70,8 @@ UIPlugin 4 Android
 //        switchButton.setShadowEffect(true);//disable shadow effect
 //        switchButton.setEnabled(false);//disable button
 //        switchButton.setEnableEffect(false);//disable the switch animation
-        switchButton.setOnCheckedChangeListener(new SwitchButton.OnCheckedChangeListener() {
+
+     switchButton.setOnCheckedChangeListener(new SwitchButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(SwitchButton view, boolean isChecked) {
                 //TODO do your job
@@ -110,7 +111,7 @@ UIPlugin 4 Android
         
     ## java:
     
-        //set switch tabs with ***app:switchTabs*** in xml
+    //set switch tabs with ***app:switchTabs*** in xml
         SwitchMultiButton switchmultibutton = (SwitchMultiButton) findViewById(R.id.switchmultibutton);
         switchmultibutton.setOnSwitchListener(new SwitchMultiButton.OnSwitchListener() {
             @Override
@@ -119,8 +120,8 @@ UIPlugin 4 Android
             }
         });
 
-        //or set switch tabs in java code
-        SwitchMultiButton mSwitchMultiButton2 = (SwitchMultiButton) findViewById(R.id.switchmultibutton2);
+    //or set switch tabs in java code
+    SwitchMultiButton mSwitchMultiButton2 = (SwitchMultiButton) findViewById(R.id.switchmultibutton2);
         mSwitchMultiButton2.setText("点个Star", "狠心拒绝").setOnSwitchListener(new SwitchMultiButton.OnSwitchListener() {
             @Override
             public void onSwitch(int position, String tabText) {
