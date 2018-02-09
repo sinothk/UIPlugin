@@ -12,7 +12,7 @@ public class SwitchMultiButtonMainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.switch_multi_button_activity_main);
 
         //set switch tabs with ***app:switchTabs*** in xml
         SwitchMultiButton switchmultibutton = (SwitchMultiButton) findViewById(R.id.switchmultibutton);
