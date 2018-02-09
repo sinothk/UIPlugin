@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="switch_tabs">
+        <item>点个Star</item>
+        <item>狠心拒绝</item>
+        <item>狠心item</item>
+    </array>
+
+</resources>

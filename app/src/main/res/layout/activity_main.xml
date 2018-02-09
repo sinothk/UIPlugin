@@ -4,56 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.sinothk.ui.demo.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.sinothk.ui.demo.switchMultiButton.SwitchMultiButtonMainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SwitchButton" />
-
-    <com.sinothk.ui.switchButton.SwitchButton
-        android:id="@+id/switch_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp" />
-
-    <com.sinothk.ui.switchButton.SwitchButton
+    <com.sinothk.ui.switchMultiButton.SwitchMultiButton
+        android:id="@+id/switchmultibutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:sb_checked="true" />
+        android:padding="8dp"
+        app:smb_selectedColor="#077000"
+        app:smb_selectedTab="0"
+        app:smb_strokeRadius="5dp"
+        app:smb_strokeWidth="1dp"
+        app:smb_switchTabs="@array/switch_tabs"
+        app:smb_textSize="14sp"
+        app:smb_typeface="DeVinneTxtBT.ttf" />
 
-
-    <com.sinothk.ui.switchButton.SwitchButton
+    <com.sinothk.ui.switchMultiButton.SwitchMultiButton
+        android:id="@+id/switchmultibutton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        app:sb_checked="true"
-        app:sb_show_indicator="false" />
-
-    <com.sinothk.ui.switchButton.SwitchButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:sb_checked="true"
-        app:sb_checked_color="#fdc951" />
-
-    <com.sinothk.ui.switchButton.SwitchButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:sb_background="#FFF"
-        app:sb_button_color="#db99c7"
-        app:sb_checked_color="#A36F95"
-        app:sb_checkline_color="#a5dc88"
-        app:sb_shadow_color="#A36F95"
-        app:sb_uncheckcircle_color="#A36F95" />
-
-    <com.sinothk.ui.switchButton.SwitchButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        app:sb_enable_effect="false" />
+        android:padding="8dp"
+        app:smb_selectedColor="#F77000"
+        app:smb_selectedTab="0"
+        app:smb_strokeRadius="5dp"
+        app:smb_strokeWidth="1dp"
+        app:smb_switchTabs="@array/switch_tabs"
+        app:smb_textSize="14sp"
+        app:smb_typeface="DeVinneTxtBT.ttf" />
 </LinearLayout>

@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="SwitchMultiButton">
+        <attr name="smb_strokeRadius" format="dimension" />
+        <attr name="smb_strokeWidth" format="dimension" />
+        <attr name="smb_textSize" format="dimension" />
+        <attr name="smb_selectedTab" format="integer" />
+        <attr name="smb_selectedColor" format="color|reference" />
+        <attr name="smb_switchTabs" format="reference" />
+        <attr name="smb_typeface" format="string" />
+    </declare-styleable>
+
     <declare-styleable name="SwitchButton">
         <attr name="sb_shadow_radius" format="reference|dimension"/>
         <attr name="sb_shadow_offset" format="reference|dimension"/>
