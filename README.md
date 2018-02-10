@@ -1,6 +1,6 @@
 # UIPlugin
 UIPlugin 4 Android
-#1. SwitchButton：
+## 1. SwitchButton：
   <com.sinothk.ui.switchButton.SwitchButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@ UIPlugin 4 Android
             app:sb_show_indicator="false" />
     </LinearLayout>
     
-    ##java：
+## java：
     
     SwitchButton switchButton = (SwitchButton) findViewById(R.id.switch_button);
 //        switchButton.setChecked(true);
@@ -79,7 +79,7 @@ UIPlugin 4 Android
             }
         });
         
- # SwitchMultiButton：
+## SwitchMultiButton：
  
   <com.sinothk.ui.switchMultiButton.SwitchMultiButton
         android:id="@+id/switchmultibutton"
@@ -109,7 +109,7 @@ UIPlugin 4 Android
         app:smb_textSize="14sp"
         app:smb_typeface="DeVinneTxtBT.ttf" />
         
-    ## java:
+## java:
     
     //set switch tabs with ***app:switchTabs*** in xml
         SwitchMultiButton switchmultibutton = (SwitchMultiButton) findViewById(R.id.switchmultibutton);
