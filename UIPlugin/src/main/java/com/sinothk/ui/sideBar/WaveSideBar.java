@@ -17,7 +17,7 @@ import com.sinothk.ui.R;
 import java.util.Arrays;
 
 /**
- * https://github.com/kongnanlive/bubble-scroll
+ * https://github.com/gjiazhe/WaveSideBar
  */
 public class WaveSideBar extends View {
     private final static int DEFAULT_TEXT_SIZE = 14; // sp
