@@ -38,8 +38,7 @@ public class BannerViewMainActivity extends AppCompatActivity {
 
         BannerUtil.show(this, banner, bannerBeanList);
 
-        // ========================================================
-
+        // =======================原版=================================
 //        Banner banner = (Banner) findViewById(R.id.banner);
 //        //设置banner样式
 //        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR_TITLE);
