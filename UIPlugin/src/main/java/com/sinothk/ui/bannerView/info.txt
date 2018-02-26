@@ -1,3 +1,0 @@
-来自：https://github.com/sinothk?tab=repositories
-
-compile 'com.youth.banner:banner:1.4.10'

@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.sinothk.ui.bannerView.Banner
+            <com.sinothk.ui.banner.BannerView
                 android:id="@+id/banner"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
