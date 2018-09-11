@@ -32,6 +32,6 @@ public class SwitchTabDemoActivity extends AppCompatActivity {
             }
         });
 
-//        mSwitchMultiButton.setSelectedTab(0);
+        mSwitchMultiButton2.setSelectedTab(0);
     }
 }
