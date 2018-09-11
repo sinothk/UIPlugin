@@ -10,6 +10,7 @@ import com.sinothk.ui.banner.ext.BannerUtil;
 import com.sinothk.ui.demo.R;
 import com.sinothk.ui.demo.mall.MallDemoMainActivity;
 import com.sinothk.ui.demo.sideBar.SideBarMainActivity;
+import com.sinothk.ui.demo.switchButton.SwitchButtonMainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +32,8 @@ public class BannerViewMainActivity extends AppCompatActivity {
 
         banner1.setIntent(new Intent(this, MallDemoMainActivity.class));
         banner2.setIntent(new Intent(this, SideBarMainActivity.class));
+
+        banner3.setIntent(new Intent(this, SwitchButtonMainActivity.class));
 
         bannerBeanList.add(banner1);
         bannerBeanList.add(banner2);

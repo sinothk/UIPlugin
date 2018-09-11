@@ -67,7 +67,7 @@
             android:id="@+id/switch_button"
             android:layout_width="42dp"
             android:layout_height="28dp"
-            app:sb_checked="true"
+            app:sb_checked="false"
             app:sb_checked_color="#fdc951"
             app:sb_show_indicator="false" />
     </LinearLayout>

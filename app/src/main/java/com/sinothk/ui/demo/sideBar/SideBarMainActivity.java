@@ -31,8 +31,8 @@ public class SideBarMainActivity extends AppCompatActivity {
         rvContacts.setAdapter(new ContactsAdapter(contacts, R.layout.side_bar_item_contacts));
 
         sideBar = (WaveSideBar) findViewById(R.id.side_bar);
-//        sideBar.setIndexItems("赵", "钱", "白", "孙", "李", "#");
-//        sideBar.setPosition(WaveSideBar.POSITION_LEFT);
+        sideBar.setIndexItems("A", "B", "D", "F", "H", "#");
+        sideBar.setPosition(WaveSideBar.POSITION_RIGHT);
         sideBar.setOnSelectIndexItemListener(new WaveSideBar.OnSelectIndexItemListener() {
             @Override
             public void onSelectIndexItem(String index) {

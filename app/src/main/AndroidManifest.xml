@@ -19,6 +19,7 @@
 
         <activity android:name=".mall.MallDemoMainActivity" />
         <activity android:name=".sideBar.SideBarMainActivity" />
+        <activity android:name=".switchButton.SwitchButtonMainActivity" />
     </application>
 
 </manifest>
