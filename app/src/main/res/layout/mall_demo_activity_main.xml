@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.sinothk.ui.demo.switchMultiButton.SwitchMultiButtonMainActivity">
+    tools:context="com.sinothk.ui.demo.tab.switchTab.lv1.SwitchTabDemoActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.sinothk.ui.mall.MallDetailView
+        <com.sinothk.ui.mall.MallDetailImageView
             android:id="@+id/mallDetailView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

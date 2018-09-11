@@ -2,19 +2,15 @@ package com.sinothk.ui.demo.mall;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Toast;
 
 import com.sinothk.ui.demo.R;
-import com.sinothk.ui.mall.MallDetailView;
-import com.sinothk.ui.switchMultiButton.SwitchMultiButton;
+import com.sinothk.ui.mall.MallDetailImageView;
 import com.sinothk.utils.OToastUtil;
 import com.sinothk.utils.OUtil;
 
 import java.util.Arrays;
-import java.util.List;
 
-public class MallDemoMainActivity extends AppCompatActivity {
+public class MallDemoImageViewMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +30,10 @@ public class MallDemoMainActivity extends AppCompatActivity {
 
         };
 
-        MallDetailView mallDetailView = (MallDetailView) this.findViewById(R.id.mallDetailView);
-        mallDetailView.setImgUrls(urls);
-        mallDetailView.setImgUrls(Arrays.asList(urls));
-        mallDetailView.setOnImgLongClickListener(new MallDetailView.OnImgLongClickListener() {
+        MallDetailImageView mallDetailImageView = (MallDetailImageView) this.findViewById(R.id.mallDetailView);
+        mallDetailImageView.setImgUrls(urls);
+        mallDetailImageView.setImgUrls(Arrays.asList(urls));
+        mallDetailImageView.setOnImgLongClickListener(new MallDetailImageView.OnImgLongClickListener() {
             @Override
             public void imgLongClick(int position, String imgUrl) {
                 OUtil.init(getApplicationContext());

@@ -10,7 +10,7 @@ import com.sinothk.ui.sideBar.WaveSideBar;
 
 import java.util.ArrayList;
 
-public class SideBarMainActivity extends AppCompatActivity {
+public class SideBarDemoMainActivity extends AppCompatActivity {
     private RecyclerView rvContacts;
     private WaveSideBar sideBar;
 

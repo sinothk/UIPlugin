@@ -24,25 +24,25 @@ import java.util.List;
  *  @Update:
  * <pre>
  */
-public class MallDetailView extends LinearLayout {
+public class MallDetailImageView extends LinearLayout {
 
     private OnImgLongClickListener onImgLongClickListener;
 
-    public MallDetailView(Context context) {
+    public MallDetailImageView(Context context) {
         super(context);
     }
 
-    public MallDetailView(Context context, @Nullable AttributeSet attrs) {
+    public MallDetailImageView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
     }
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-    public MallDetailView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MallDetailImageView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    public MallDetailView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public MallDetailImageView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 

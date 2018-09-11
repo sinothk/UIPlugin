@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".bannerView.BannerViewMainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,9 +17,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".mall.MallDemoMainActivity" />
-        <activity android:name=".sideBar.SideBarMainActivity" />
         <activity android:name=".switchButton.SwitchButtonMainActivity" />
+        <activity android:name=".tab.switchTab.lv1.SwitchTabDemoActivity" />
+        <activity android:name=".mall.MallDemoImageViewMainActivity" />
+
+        <activity android:name=".sideBar.SideBarDemoMainActivity" />
+
+        <activity android:name=".bannerView.BannerViewMainActivity" />
     </application>
 
 </manifest>

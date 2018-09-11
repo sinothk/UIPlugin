@@ -6,9 +6,9 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.sinothk.ui.demo.switchMultiButton.SwitchMultiButtonMainActivity">
+    tools:context="com.sinothk.ui.demo.tab.switchTab.lv1.SwitchTabDemoActivity">
 
-    <com.sinothk.ui.switchMultiButton.SwitchMultiButton
+    <com.sinothk.ui.tab.switchTab.lv1.SwitchMultiButton
         android:id="@+id/switchmultibutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
         app:smb_textSize="14sp"
         app:smb_typeface="DeVinneTxtBT.ttf" />
 
-    <com.sinothk.ui.switchMultiButton.SwitchMultiButton
+    <com.sinothk.ui.tab.switchTab.lv1.SwitchMultiButton
         android:id="@+id/switchmultibutton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

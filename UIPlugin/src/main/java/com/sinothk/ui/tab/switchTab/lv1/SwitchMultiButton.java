@@ -1,4 +1,4 @@
-package com.sinothk.ui.switchMultiButton;
+package com.sinothk.ui.tab.switchTab.lv1;
 
 import android.content.Context;
 import android.content.res.TypedArray;
