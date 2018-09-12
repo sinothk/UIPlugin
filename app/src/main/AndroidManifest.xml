@@ -24,6 +24,8 @@
         <activity android:name=".sideBar.SideBarDemoMainActivity" />
 
         <activity android:name=".bannerView.BannerViewMainActivity" />
+
+        <activity android:name=".roundedImage.RoundedImageDemoActivity" />
     </application>
 
 </manifest>

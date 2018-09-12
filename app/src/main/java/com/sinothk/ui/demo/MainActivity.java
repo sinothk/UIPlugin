@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.sinothk.ui.demo.bannerView.BannerViewMainActivity;
 import com.sinothk.ui.demo.mall.MallDemoImageViewMainActivity;
+import com.sinothk.ui.demo.roundedImage.RoundedImageDemoActivity;
 import com.sinothk.ui.demo.sideBar.SideBarDemoMainActivity;
 import com.sinothk.ui.demo.switchButton.SwitchButtonMainActivity;
 import com.sinothk.ui.demo.tab.switchTab.lv1.SwitchTabDemoActivity;
@@ -38,5 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void gotoSideBarDemoMainActivity(View view) {
         startActivity(new Intent(this, SideBarDemoMainActivity.class));
+    }
+
+    public void gotoRoundedImageDemoActivity(View view) {
+        startActivity(new Intent(this, RoundedImageDemoActivity.class));
     }
 }

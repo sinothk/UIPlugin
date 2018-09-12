@@ -40,5 +40,12 @@
             android:layout_height="wrap_content"
             android:onClick="gotoSideBarDemoMainActivity"
             android:text="侧边导航栏" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="gotoRoundedImageDemoActivity"
+            android:text="异型图片" />
+
     </LinearLayout>
 </ScrollView>

@@ -11,7 +11,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.bumptech.glide.Glide;
-import com.sinothk.utils.OStringUtil;
 
 import java.util.List;
 
@@ -70,7 +69,7 @@ public class MallDetailImageView extends LinearLayout {
 
         for (int i = 0; i < urls.length; i++) {
 
-            if (OStringUtil.isEmpty(urls[i])) {
+            if (urls[i] == null || urls[i].trim().length() == 0) {
                 continue;
             }
 

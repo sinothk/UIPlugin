@@ -5,9 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.sinothk.ui.demo.R;
 import com.sinothk.ui.switchButton.SwitchButton;
-import com.sinothk.utils.OStringUtil;
-import com.sinothk.utils.OToastUtil;
-import com.sinothk.utils.OUtil;
 
 public class SwitchButtonMainActivity extends AppCompatActivity {
 
@@ -15,8 +12,6 @@ public class SwitchButtonMainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.switch_button_activity_main);
-
-        OUtil.init(this);
 
         SwitchButton switchButton = (SwitchButton) findViewById(R.id.switch_button);
         switchButton.setChecked(true);
@@ -29,8 +24,7 @@ public class SwitchButtonMainActivity extends AppCompatActivity {
         switchButton.setOnCheckedChangeListener(new SwitchButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(SwitchButton view, boolean isChecked) {
-                //TODO do your job
-                OToastUtil.show("isChecked = " + isChecked);
+//                OToastUtil.show("isChecked = " + isChecked);
             }
         });
     }
